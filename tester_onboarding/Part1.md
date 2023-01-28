@@ -21,31 +21,32 @@
 **Take [Postman Beginner's Course on API Testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4) course** (_:hourglass: ~2h --  :star: 1.5M views -- :octocat: [GitHub repo](https://github.com/vdespa/introduction-to-postman-course)_)
 
 - follow along with the instructor / code in parallel
-- consult `[Postman Learning Center](https://learning.postman.com/docs/getting-started/introduction/)`  pages whenever you feel like you want to know more or double check something (some links are also provided below👇)
-- whenever you are faced with new terminology / unknown concept we want to **stop and DEMYSTIFY it**
-    - we want to: **`stop` 🖐️🛑 → `ask questions` → `find answers` (in attached video or blog post) → `move on` with the course**
+- consult [`Postman Learning Center`](https://learning.postman.com/docs/getting-started/introduction/) pages whenever you feel like you want to know more or double check something (some links are also provided below👇)
+- whenever you are faced with new terminology / unknown concept we want to _stop and DEMYSTIFY it_
+    - the process will be: `stop` 🖐️🛑 → `ask questions` → `find answers` (in attached video or blog post) → `move on` with the course
 - make notes during the process (*not mandatory, recommended*)
 
 ### Conceptual Asides
 
-*Every now and then we will want to stop and demystify some term that we don’t know about.*
+*Every now and then we will want to stop and demystify some term that we (1) never heard about before or (2) don’t understand yet.*
 
 > ✋🛑 We will call these occasions **conceptual asides**
 > 
 
-> ℹ️  Simply we will stop and ask questions that help us understand term/concept we never heard of before, term/concept that sounds overly complex but actually becomes simple once we answered few questions.
+> ℹ️  Simply we will stop and ask questions that help us understand term/concept we never heard of before. Term/concept that sounds overly complex but actually becomes simple once we answered few questions to ourselves.
 > 
-- The questions we want to ask ourselves
+- The questions we will be asking ourselves  
     
-    → what is it ? (could be a tool, library, an idea, standard way to do something, etc)
+    → `what` is it ?   
+        _it could be a tool, library, an idea, standard way to do something, etc_
     
-    → where is it used ? 
+    → `where` is it used ? 
     
-    → who uses it ? 
+    → `who` uses it ? 
     
-    → how we could use it ?  
+    → `how` we could use it ?  
     
-    → what problem it solves for us ? 
+    → `what` problem `it solves` for us ? 
     
     → etc 
     
