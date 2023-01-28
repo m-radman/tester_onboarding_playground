@@ -22,7 +22,7 @@ This lecture is `appendix-b` sequel to [`Part1`](./Part1.md) lecture.
 - follow along with the instructor / code in parallel
 - focus on following sections 👇
     
-    ![Screenshot 2023-01-01 at 22.04.24.png](Part%201%20appendix-b%20GitLab%20Pipelines%203f2f6e64f8884c528631b9e6c878b3df/Screenshot_2023-01-01_at_22.04.24.png)
+    ![Screenshot 2023-01-01 at 22.04.24.png](./assets/part1/Part1_appendix_b.png)
 
 📽️ **Watch [Publishing Postman Tests Results in Gitlab CI (JUnit report for Merge Requests)](https://www.youtube.com/watch?v=NUjkA27odmI)** _(:hourglass: ~7m -- 👨‍🏫 `Valentin Despa`)_ 
 
