@@ -1,5 +1,7 @@
 # Part 1: API Testing with Postman
 
+[TOC]
+
 ## 📫 Final version of `collection.json` → [ATTACH HERE]
 
 ### Before we get started

@@ -4,10 +4,10 @@ This is The Main repo with all the materials.
 ### Tester Onboarding 
 
  - [Part 1: API Testing with Postman](./tester_onboarding/Part1.md)
-    - [Part 1 appendix-a: ](./tester_onboarding/Part1_appendix_a.md)
-    - [Part 1 appendix-b: ](./tester_onboarding/Part1_appendix_b.md)
- - [Part 2: ](./tester_onboarding/Part2.md)  
- - [Part 3: ](./tester_onboarding/Part3.md)  
+    - [Part 1 appendix-a: Run Postman tests in Jenkins](./tester_onboarding/Part1_appendix_a.md)
+    - [Part 1 appendix-b: GitLab Pipelines](./tester_onboarding/Part1_appendix_b.md)
+ - [Part 2: API Testing with SuperTest](./tester_onboarding/Part2.md)  
+ - [Part 3: Typescript Intro](./tester_onboarding/Part3.md)  
  - [Part 4: ](./tester_onboarding/Part4.md)  
  - [Part 5: ](./tester_onboarding/Part5.md)  
  - [Part 6: ](./tester_onboarding/Part6.md)  

@@ -2,20 +2,22 @@
 
 This lecture is `appendix-b` sequel to [`Part1`](./Part1.md) lecture.
 
-### Before we get started
+[TOC]
+
+## Before we get started
 
 - [ ]  `step1` Go to [https://about.gitlab.com/](https://about.gitlab.com/) and sign up
 - [ ]  `step2` Login to Udemy `ivacizmas@gmail.com` / `UcimoProgramiranje2022`
 - [ ]  `step3` 🎉 you are all set!
 
-### GitLab Pipelines
+## GitLab Pipelines
 
-#### 🎯 Our goals
+### 🎯 Our goals
 
 - Learn how to create Pipelines in GitLab
 - Gain some basic understanding of certain concepts such as Pipeline, Jobs and Stages, Job’s artifacts, YAML and CI (Continues Integration)
 
-#### ✍️ One BIG `TODO`
+### ✍️ One BIG `TODO`
 
 **Take [*GitLab CI: Pipelines, CI/CD and DevOps for Beginners*](https://www.udemy.com/course/gitlab-ci-pipelines-ci-cd-and-devops-for-beginners/) course** _(:hourglass: ~2h -- :books: on Udemy)_ 
 
@@ -28,13 +30,13 @@ This lecture is `appendix-b` sequel to [`Part1`](./Part1.md) lecture.
 
 ### Links & Readings
 
-GitLab documentation 
+#### GitLab documentation 
 
-      📌 `.gitlab-ci.yml` keyword reference → [official GitLab docs](https://docs.gitlab.com/ee/ci/yaml/)
+📌 `.gitlab-ci.yml` keyword reference → [official GitLab docs](https://docs.gitlab.com/ee/ci/yaml/)
 
 📌 use `CILint` to validate syntax of `.gitlab-ci.yml` → [official GitLab docs](https://docs.gitlab.com/ee/ci/lint.html) 
 
-Blog posts and additional materials related to topic 
+#### Blog posts and additional materials related to topic 
 
 📽️ Another quick video from Valentin → [Manage bash scripts and functions in Gitlab CI](https://www.youtube.com/watch?v=8h4k95Ou9DE) `TODO` ✍️
 
