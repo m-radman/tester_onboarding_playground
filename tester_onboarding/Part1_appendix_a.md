@@ -1,6 +1,6 @@
 # Part 1 appendix-a: Run Postman tests in Jenkins
 
-This document `Part1 apendix-a` is a sequel to [`Part 1`](./Part1.md).   
+This lecture is `apendix-a` sequel to [`Part 1`](./Part1.md) lecture.   
 
 ### Run Postman tests in Jenkins
 
