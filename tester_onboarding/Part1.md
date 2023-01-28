@@ -1,6 +1,6 @@
 # Part 1: API Testing with Postman
 
-## 📫 Final version of collection.json → [ATTACH HERE]
+## 📫 Final version of `collection.json` → [ATTACH HERE]
 
 ### Before we get started
 
@@ -18,7 +18,8 @@
 
 #### ✍️ One BIG `TODO`
 
-`TODO`: **Take [Postman Beginner's Course on API Testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4) course 2h 1.5M views ([GitHub repo](https://github.com/vdespa/introduction-to-postman-course) of the course)**
+**Take [Postman Beginner's Course on API Testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4) course**   
+_:hourglass: ~2h --  :star: 1.5M views -- :octocat: [GitHub repo](https://github.com/vdespa/introduction-to-postman-course)_
 
 - follow along with the instructor / code in parallel
 - consult `[Postman Learning Center](https://learning.postman.com/docs/getting-started/introduction/)`  pages whenever you feel like you want to know more or double check something (some links are also provided below👇)
