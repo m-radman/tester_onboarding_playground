@@ -66,11 +66,11 @@
  - `CA-7` let’s demystify 🔎 what it means that API is RESTful API ? 👉 let’s jump to quick lesson [here](https://www.udemy.com/course/understand-nodejs/learn/lecture/3658452#overview)
  - `CA-8` let’s demystify 🔎 what is CLI ? 👉 let’s jump to quick lesson [here](https://www.udemy.com/course/understand-nodejs/learn/lecture/3453082#overview)
 
-> *Udemy account* → `ivacizmas@gmail.com` / `UcimoProgramiranje2022`  
+*Udemy account* → `ivacizmas@gmail.com` / `UcimoProgramiranje2022`  
 
 ### Links & Readings
 
-📌 `[Postman Learning Center](https://learning.postman.com/docs/getting-started/introduction/)` 
+📌 [Postman Learning Center](https://learning.postman.com/docs/getting-started/introduction/)
 
  📙 [How to SEND you first REQUEST from Postman](https://learning.postman.com/docs/getting-started/sending-the-first-request/) 
 
