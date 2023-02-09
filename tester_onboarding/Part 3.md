@@ -1,7 +1,5 @@
 # Part 3: Typescript Intro
 
-[TOC]
-
 ## GitHub Repo → https://github.com/ivaaaa/typescript-playground
 
 ### Reading list
@@ -51,3 +49,5 @@ node milos.js
 … same way `ts-node` is TypeScript REPL
 
 📌 `ts-node` is typescript REPL for node.js → see here https://github.com/TypeStrong/ts-node
+
+:point_left: [go back to main page](../README.md)

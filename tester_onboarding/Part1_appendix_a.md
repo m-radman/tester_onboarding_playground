@@ -2,8 +2,6 @@
 
 This lecture is `apendix-a` sequel to [`Part 1`](./Part1.md) lecture.   
 
-[TOC]
-
 ## Run Postman tests in Jenkins
 
 ### 🎯 Our goals
@@ -43,3 +41,6 @@ This lecture is `apendix-a` sequel to [`Part 1`](./Part1.md) lecture.
 #### Additional tutorials
 
     🚵 [⚠️ Skip this for now] Jenkins official tutorial → [Getting Started with Jenkins Guided Tour](https://www.jenkins.io/doc/pipeline/tour/getting-started/)
+
+
+:point_left: [go back to main page](../README.md)

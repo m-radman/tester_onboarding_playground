@@ -1,7 +1,5 @@
 # Part 1: API Testing with Postman
 
-[TOC]
-
 ## 📫 Final version of `collection.json` → [ATTACH HERE]
 
 ### Before we get started
@@ -97,3 +95,5 @@
 📙 [How to RUN COLLECTION of requests using Newman](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) **`TODO`** ✍️
 
 - 👆Go through [these steps](https://learning.postman.com/docs/running-collections/using-newman-cli/installing-running-newman/) to `npm install -g newman` on your machine and attempt to run a collection locally (from command line from your machine; note that before doing that you will have to export collection in json format)
+
+:point_left: [go back to main page](../README.md)

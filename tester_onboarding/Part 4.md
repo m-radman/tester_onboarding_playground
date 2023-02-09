@@ -1,7 +1,5 @@
 # Part 4: UI Testing Intro (before getting into coding)
 
-[TOC]
-
 ### Application under test → [https://the-internet.herokuapp.com/](https://the-internet.herokuapp.com/)
 
 #### **Test [Basic Auth](https://the-internet.herokuapp.com/basic_auth)** 
@@ -90,3 +88,6 @@ Test Steps:
 - switch context to `bottom-frame`
 - get text from `body` of the embedded html document and expect it to be equal to “BOTTOM”
 - switch context back to root html document
+
+
+:point_left: [go back to main page](../README.md)

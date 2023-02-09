@@ -1,7 +1,5 @@
 # Part 2: API Testing with SuperTest
 
-[TOC]
-
 ## GitHub Repo → https://github.com/ivaaaa/supertest-playground
 
 ### Before we get started
@@ -191,3 +189,5 @@ Some of the tests are already implemented - to give an example to learn from.
 ### Links & Readings
 
 . . . 
+
+:point_left: [go back to main page](../README.md)

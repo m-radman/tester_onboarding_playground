@@ -2,8 +2,6 @@
 
 This lecture is `appendix-b` sequel to [`Part1`](./Part1.md) lecture.
 
-[TOC]
-
 ## Before we get started
 
 - [ ]  `step1` Go to [https://about.gitlab.com/](https://about.gitlab.com/) and sign up
@@ -41,3 +39,5 @@ This lecture is `appendix-b` sequel to [`Part1`](./Part1.md) lecture.
 📽️ Another quick video from Valentin → [Manage bash scripts and functions in Gitlab CI](https://www.youtube.com/watch?v=8h4k95Ou9DE) `TODO` ✍️
 
 📗 YAML read → [3 YAML tips for better pipelines](https://about.gitlab.com/blog/2020/10/01/three-yaml-tips-better-pipelines/)
+
+:point_left: [go back to main page](../README.md)
