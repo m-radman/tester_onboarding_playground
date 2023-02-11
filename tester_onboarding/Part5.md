@@ -19,3 +19,8 @@ Examples in the repo!
     - [`setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)` global function 
     - 📌 Node.js `fs` module [docs](https://nodejs.org/api/fs.html) 
     - 📌 Node.js `process` module [docs](https://nodejs.org/api/process.html#processcwd)
+
+
+--- 
+
+:point_left: [go back to main page](../README.md)
