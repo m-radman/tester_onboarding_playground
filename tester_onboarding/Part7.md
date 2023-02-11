@@ -2,7 +2,7 @@
 
 ## GitHub Repo → [`webdriverio_playground`](https://github.com/ivaaaa/webdriverio_playground)
 
-More details in repo's [README.md](https://github.com/ivaaaa/webdriverio_playground/README.md)
+More details in [here](https://github.com/ivaaaa/webdriverio_playground/#tasks-iteration-1-write-e2e-test)
 
 
 --- 
