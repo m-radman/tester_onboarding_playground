@@ -57,11 +57,11 @@ We should:
 - get familiar with all of the endpoints (8 endpoints + 1 endpoint we need for authentication purposes)
 - detect the resources which Simple Books service is responsible of (we have 2 resources - `book` and `order` )
 - think about which [status codes](https://www.w3.org/Protocols/HTTP/HTRESP.html) could be returned by each of the endpoints
-    - 400 Bad Request - valid / failure response for POST / PUT request (when `body` you sent in HTTP request is not what web service code expects)
-    - 200 OK - valid / success response for GET request
-    - 201 OK - valid / success response for POST / PUT request
-    - 404 Not Found - resource not found, valid GET response if the requested resource does not exist (example: there is no book with given bookId)
-    - 500 Internal Server Error - an error occurred but web service code did not count on that type of error - this is not smth that you would ever expect to happen
+    - `400 Bad Request` - valid / failure response for POST / PUT request (when `body` you sent in HTTP request is not what web service code expects)
+    - `200 OK` - valid / success response for GET request
+    - `201 Created` - valid / success response for POST / PUT request
+    - `404 Not Found` - resource not found, valid GET response if the requested resource does not exist (example: there is no book with given bookId)
+    - `500 Internal Server Error` - an error occurred but web service code did not count on that type of error - this is not smth that you would ever expect to happen
     
 [📚 Simple Books API](https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md) implements following endpoints
 
