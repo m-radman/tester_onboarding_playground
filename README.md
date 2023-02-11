@@ -28,6 +28,5 @@ This is The Main repo with all the materials.
     - [Part 11: Docker basics](./tester_onboarding/Part11.md)   
 
  - Final part 
-     - [Final Part: ](./tester_onboarding/FinalPart.md)  
-     - [Interview Questions](./tester_onboarding/InterviewQuestions.md)  
+     - [Final Part: Additional Readings & Interview Questions](./tester_onboarding/FinalPart.md)  
 
