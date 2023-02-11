@@ -5,7 +5,7 @@ This lecture is `appendix-b` sequel to [`Part1`](./Part1.md) lecture.
 ## Before we get started
 
 - [ ]  `step1` Go to [https://about.gitlab.com/](https://about.gitlab.com/) and sign up
-- [ ]  `step2` Login to Udemy `ivacizmas@gmail.com` / `UcimoProgramiranje2022`
+- [ ]  `step2` Login to Udemy  
 - [ ]  `step3` 🎉 you are all set!
 
 ## GitLab Pipelines

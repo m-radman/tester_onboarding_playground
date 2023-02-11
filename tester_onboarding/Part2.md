@@ -1,16 +1,15 @@
 # Part 2: API Testing with SuperTest
 
-## GitHub Repo → https://github.com/ivaaaa/supertest-playground
+## GitHub Repo → [`supertest-playground`](https://github.com/ivaaaa/supertest-playground)
 
 ### Before we get started
 
 - [ ]  `step0` Make sure you have Git as well as NodeJS (`npm` comes with it) installed on your system
     
-    ![Screenshot 2023-01-04 at 18.08.28.png](./assets/part2/Part2_1.png)
+    ![Clone repo console log](/assets/part2/Part2_1.png)
     
     *If you don’t have NodeJS installed don’t panic, just go to [https://nodejs.org/en/](https://nodejs.org/en/) to download and install LTS version of NodeJS on your system.* 
-    
-- [ ]  `step1` Clone GitHub repo ‣, this is going to be our code repository for `Part 2`
+- [ ]  `step1` Clone GitHub repo :point_up: (this is going to be our code repository for `Part 2`)
     
     ```bash
     git clone git@github.com:ivaaaa/supertest-playground.git
@@ -24,24 +23,22 @@
     
     npm install
     ```
-    
 - [ ]  `step2` Make sure you have access to [Simple Books API](https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md)  endpoints from Postman
 - [ ]  `step3` Check out `supertest`’s  [README.md](https://github.com/ladjs/supertest#readme)
+    - 👉 **Why we need** SuperTest? **Which problem it solves** for us? 
     
-    👉 **Why we need** SuperTest? **Which problem it solves** for us? 
+      - → It will provide us with **high-level abstraction for testing HTTP** 
     
-    → It will provide us with **high-level abstraction for testing HTTP** 
+    - `note#1` “testing HTTP” just means testing APIs, tests that send HTTP request and expect HTTP response in return
     
-    `note#1` “testing HTTP” just means testing APIs, tests that send HTTP request and expect HTTP response in return
+    - `note#2` ”high-level abstraction” means this 👇
     
-    `note#2` ”high-level abstraction” means this 👇
+      Our tests **don’t** **need** to **know `how` to** send an HTTP request (although they do need it sent). By deciding to use SuperTest we are deciding that we are going to delegate the responsibility of sending requests over HTTP to `supertest`. Or, in other words, **we will use `supertest` to send HTTP requests** over network for us.
     
-    Our tests **don’t** **need** to **know `how` to** send an HTTP request (although they do need it sent). By deciding to use SuperTest we are deciding that we are going to delegate the responsibility of sending requests over HTTP to `supertest`. Or, in other words, **we will use `supertest` to send HTTP requests** over network for us.
+      - 👉 **What** is SuperTest **based on**? → “HTTP assertions made easy via **SuperAgent**”  (*SuperAgent - Small progressive **client-side HTTP request library**)
     
-    👉 **What** is SuperTest **based on**? → “HTTP assertions made easy via **SuperAgent**”  (*SuperAgent - Small progressive **client-side HTTP request library**)
-    
-    `[supertest` on npm](https://www.npmjs.com/package/supertest) & `[superagent` on npm](https://www.npmjs.com/package/superagent)  documentation available [here](https://ladjs.github.io/superagent/) 
-    
+      [`supertest` on npm](https://www.npmjs.com/package/supertest) & [`superagent` on npm](https://www.npmjs.com/package/superagent)   
+      :pin: documentation available [here](https://ladjs.github.io/superagent/) 
 - [ ]  `step4` 🎉 you are all set!
 
 ### API Testing with SuperTest
@@ -99,36 +96,25 @@ We should:
 📌 Here is where I am writing down the steps I did to setup `supertest-playground` code base. Feel free to create a GitHub repo of your own and repeat these steps yourself (recommended ⚠️🙏).
 
 - `Step1` create an empty repository in GitHub and run `git clone` to clone the repo to your machine 
-
 - `Step2` create an `npm` package 
 
   ```jsx
   cd my_projects/supertest_playground
   npm init 
   ```
-
   - We are actually converting the project folder into an `npm` package by running `init` command. As a result `package.json` file will be created. Folder with `package.json` file is considered to be an `npm` package by definition.
-
 - `Step3` install `[supertest](https://github.com/ladjs/supertest)` and save it to our dev dependencies 
-
   ```jsx
   npm install supertest --save-dev
   ```
-
      - As a result our `package.json` file should be updated - `supertest` should be added to `"devDependencies"` . `**TODO**` Quick read about what package.json is - see [geeksforgeeks](https://www.geeksforgeeks.org/node-js-package-json/) article.
-
      - `package-lock.json` file will be generated automatically by `npm` (node’s package manager). `**TODO**`Quick read about what package-lock.json is all about - see [geeksforgeeks](https://www.geeksforgeeks.org/difference-between-package-json-and-package-lock-json-files/) article.
-
 - `Step4`  install `[jest](https://github.com/facebook/jest)`  (The Javascript Testing Framework) and save it to our dev dependencies
-
   ```jsx
   npm install jest --save-dev 
   ```
-
   - Please note link to [Jest documentation](https://jestjs.io/docs/getting-started) 📌
-
 - `Step5` add `test` and `test:watch` scripts to [npm scripts](https://docs.npmjs.com/cli/v9/using-npm/scripts) in `package.json` 
-
   ```jsx
   // package.json
   {
@@ -141,24 +127,18 @@ We should:
     }
   }
   ```
-
   - Note how `test` script only runs/executes/starts `jest` test runner. While `test:watch` script also starts `jest` test runner but in watch mode. `**TODO`** Read about [**how to Run jest from command line](https://jestjs.io/docs/cli#running-from-the-command-line).** 
-
 - `Step6` in order to *start tests* we will `(1)` go to command line (MacOS Terminal / Linux Shell / GitBash etc) and `(2)` run one of the two `npm scripts`:   
-
   ```jsx
   npm run test 
   npm run test:watch
   ```
-
 - `Step7` in the root of the project create a folder named `tests` with subfolders `books` `orders` and `status`
-
   - Note that this is where our test files are going to live :) Also note that all of our test files will be named as following `*.test.js` This is so that jest runner automatically recognises which files to run. Jest will run all files that match certain pattern such as `*.test.js` or `*.spec.js` - see [here](https://jestjs.io/docs/configuration#testregex-string--arraystring). Check out all the [command line options](https://jestjs.io/docs/cli) you can pass to `jest` CLI tool.
 
 #### ✍️ `PHASE 3` **Exercises**
 
 **`TODO`** Your task is to implement test cases in 5 test files marked with TODO as shown on screenshot below 👇 
-
   ```jsx
   books/get_single_book.test.js
   orders/submit_order.test.js
@@ -166,8 +146,6 @@ We should:
   orders/get_order.test.js
   orders/delete_order.test.js
   ```
-
-![Screenshot 2023-01-05 at 23.40.14.png](./assets/part2/Part2_2.png)
 
 Some of the tests are already implemented - to give an example to learn from. 
 
@@ -177,17 +155,14 @@ Some of the tests are already implemented - to give an example to learn from.
   orders/get_orders.test.js
   ```
 
+  ![Screenshot 2023-01-05 at 23.40.14.png](/assets/part2/Part2_2.png)
+
 ❗IMPORTANT → You can always use JavaScript `console.log` to debug test execution. Or you can search the internet to find a way to setup the Node debugger in `vscode` to work with jest ([check out this gist](https://gist.github.com/jherax/231b2dda7f9cce20e13f4590594fdb70) + [read about what `.vscode/launch.json` file is all about](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations)).
 
-### Conceptual Asides 
-#### ✋ Conceptual Asides`TODO` ✍️
+### ✋ Conceptual Asides ✍️
 
 - `CA-M`  let’s demystify 🔎 why we need APIs? → what is RPC (RPC stands for Remote Procedure Call, procedure = function) ? 👉let’s jump to a quick lesson by `Valentin Despa` 🧑‍🏫 [here](https://www.youtube.com/watch?v=MdaGuP6-bKs)
 
-*Udemy account* → `ivacizmas@gmail.com` / `UcimoProgramiranje2022`  
-
-### Links & Readings
-
-. . . 
+*Udemy account* → `<username>` / `<password>`  
 
 :point_left: [go back to main page](../README.md)

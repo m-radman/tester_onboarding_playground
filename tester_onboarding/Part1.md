@@ -35,20 +35,15 @@
 
 > ℹ️  Simply we will stop and ask questions that help us understand term/concept we never heard of before. Term/concept that sounds overly complex but actually becomes simple once we answered few questions to ourselves.
 > 
+
 - The questions we will be asking ourselves  
-    
-    → `what` is it ?   
+    - → `what` is it ?   
         _it could be a tool, library, an idea, standard way to do something, etc_
-    
-    → `where` is it used ? 
-    
-    → `who` uses it ? 
-    
-    → `how` we could use it ?  
-    
-    → `what` problem `it solves` for us ? 
-    
-    → etc 
+    - → `where` is it used ? 
+    - → `who` uses it ? 
+    - → `how` we could use it ?  
+    - → `what` problem `it solves` for us ? 
+    - → etc 
     
 #### ✋ Conceptual Asides `TODO` List ✍️
 
@@ -66,34 +61,26 @@
  - `CA-7` let’s demystify 🔎 what it means that API is RESTful API ? 👉 let’s jump to quick lesson [here](https://www.udemy.com/course/understand-nodejs/learn/lecture/3658452#overview)
  - `CA-8` let’s demystify 🔎 what is CLI ? 👉 let’s jump to quick lesson [here](https://www.udemy.com/course/understand-nodejs/learn/lecture/3453082#overview)
 
-*Udemy account* → `ivacizmas@gmail.com` / `UcimoProgramiranje2022`  
+*Udemy account* → `<username>` / `<password>`  
 
 ### Links & Readings
 
-📌 [Postman Learning Center](https://learning.postman.com/docs/getting-started/introduction/)
+- 📌 [Postman Learning Center](https://learning.postman.com/docs/getting-started/introduction/)
+    - 📙 [How to SEND you first REQUEST from Postman](https://learning.postman.com/docs/getting-started/sending-the-first-request/) 
+    - 📙 [How to create a COLLECTION in Postman](https://learning.postman.com/docs/getting-started/creating-the-first-collection/) 
+    - 📙 [How to EXPORT collection from Postman](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#exporting-collections) 
+    - 📙 [How to use VARIABLES in Postman](https://learning.postman.com/docs/sending-requests/variables/)
+    - 📙 [How to manage ENVIRONMENTS in Postman](https://learning.postman.com/docs/sending-requests/managing-environments/) 
+    - 📙 [How to write SCRIPTS in Postman](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/) 
+        - 📌 [learn about pre-request scripts](https://learning.postman.com/docs/writing-scripts/pre-request-scripts/) *(useful to “setup test environment” before sending a request)*
+        - 📌 [learn how to write tests](https://learning.postman.com/docs/writing-scripts/test-scripts/) ie checks that are meant to check the response 
+        - 🔬[check out some examples here](https://learning.postman.com/docs/writing-scripts/script-references/test-examples/) 
+    - 📙 [How to RUN COLLECTION of requests manually in Postman](https://learning.postman.com/docs/running-collections/intro-to-collection-runs/)
+    - 📙 [How to RUN COLLECTION of requests using Newman](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) **`TODO`** ✍️
 
- 📙 [How to SEND you first REQUEST from Postman](https://learning.postman.com/docs/getting-started/sending-the-first-request/) 
+        - 👆Go through [these steps](https://learning.postman.com/docs/running-collections/using-newman-cli/installing-running-newman/) to `npm install -g newman` on your machine and attempt to run a collection locally (from command line from your machine; note that before doing that you will have to export collection in json format)
 
- 📙 [How to create a COLLECTION in Postman](https://learning.postman.com/docs/getting-started/creating-the-first-collection/) 
 
- 📙 [How to EXPORT collection from Postman](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#exporting-collections) 
 
- 📙 [How to use VARIABLES in Postman](https://learning.postman.com/docs/sending-requests/variables/)
-
- 📙 [How to manage ENVIRONMENTS in Postman](https://learning.postman.com/docs/sending-requests/managing-environments/) 
-
- 📙 [How to write SCRIPTS in Postman](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/) 
-
-📌 [learn about pre-request scripts](https://learning.postman.com/docs/writing-scripts/pre-request-scripts/) *(useful to “setup test environment” before sending a request)*
-
-📌 [learn how to write tests](https://learning.postman.com/docs/writing-scripts/test-scripts/) ie checks that are meant to check the response 
-
- - 🔬[check out some examples here](https://learning.postman.com/docs/writing-scripts/script-references/test-examples/) 
-
-📙 [How to RUN COLLECTION of requests manually in Postman](https://learning.postman.com/docs/running-collections/intro-to-collection-runs/)
-
-📙 [How to RUN COLLECTION of requests using Newman](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) **`TODO`** ✍️
-
-- 👆Go through [these steps](https://learning.postman.com/docs/running-collections/using-newman-cli/installing-running-newman/) to `npm install -g newman` on your machine and attempt to run a collection locally (from command line from your machine; note that before doing that you will have to export collection in json format)
-
+--- 
 :point_left: [go back to main page](../README.md)
