@@ -12,9 +12,7 @@ This lecture is `apendix-a` sequel to [`Part 1`](./Part1.md) lecture.
 
 **Watch *[Run Postman Collections in Jenkins with Newman](https://www.youtube.com/watch?v=iS7HPNswv-8)* YouTube video** (_👨‍🏫 `Valentin Despa` -- :hourglass: ~2h)_
 
-## Conceptual Asides
-
-### ✋ Conceptual Asides `TODO` List ✍️
+## ✋ Conceptual Asides `TODO` List ✍️
 
 - `CA-1` let’s demystify 🔎 what is Newman ? 👉 **command-line tool** that is responsible to **run Postman collections** (command-line collection runner) [see here](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
 - `CA-2` let’s demystify 🔎 how to install and use Newman ? 👉 Newman is an **npm package**, you can find it [here](https://www.npmjs.com/package/newman) in npm public registry and `newman`'s code lives in GitHub repo [here](https://github.com/postmanlabs/newman)
@@ -43,4 +41,5 @@ This lecture is `apendix-a` sequel to [`Part 1`](./Part1.md) lecture.
     🚵 [⚠️ Skip this for now] Jenkins official tutorial → [Getting Started with Jenkins Guided Tour](https://www.jenkins.io/doc/pipeline/tour/getting-started/)
 
 
+---
 :point_left: [go back to main page](../README.md)
